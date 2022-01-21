@@ -72,6 +72,7 @@
                 document.cookie = `hexToken=${token}; expires=${new Date(
                   expired
                 )}; path=/`;
+                //頁面可以跳轉到 product
                 window.location = "product.html";
 
                 console.log(response);
